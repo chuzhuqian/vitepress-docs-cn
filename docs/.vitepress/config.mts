@@ -7,8 +7,8 @@ export default defineConfig({
   base: '/vitepress-doc-cn/',
   ignoreDeadLinks: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-doc-cn/vitepress-logo-mini.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/vitepress-doc-cn/vitepress-logo-mini.png' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
