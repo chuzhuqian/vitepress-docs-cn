@@ -52,7 +52,7 @@ outline: deep
 
 **Example:** 如果你想使用Github (or GitLab)页面，并且部署在`user.github.io/repo/`，将`base`设置为`/repo/`.
 
-## HTTP Cache Headers
+## HTTP Cache Headers111
 
 If you have control over the HTTP headers on your production server, you can configure `cache-control` headers to achieve better performance on repeated visits.
 
