@@ -4,6 +4,7 @@ export default defineConfig({
   title: "VitePress",
   description: "a blog site",
   cleanUrls: true,
+  base: '/vitepress-doc-cn/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
