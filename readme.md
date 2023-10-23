@@ -3,5 +3,5 @@
 ## Intention
 
 - Improve English level.
-- To better Use the `vitepress`.
+- To better use the `vitepress`.
 - To help other people who is reading the English documentation of `vitepress` hardly.
