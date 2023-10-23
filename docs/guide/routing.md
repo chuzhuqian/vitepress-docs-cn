@@ -94,7 +94,7 @@ src/getting-started.md  -->  /getting-started.html
 
 ### 链接到非VitePress页面
 
-如果想要在站点中链接到非VitePress生成的页面，你需要使用完整的URL（在新选项卡中打开）或者明确指定target：
+如果想要在网站中链接到非VitePress生成的页面，你需要使用完整的URL（在新选项卡中打开）或者明确指定target：
 
 **输入**
 
@@ -210,7 +210,7 @@ export default {
 
 ### 路径加载文件
 
-由于 VitePress 是静态站点生成器，因此必须在构建时确定可能的页面路径。因此，动态路由页面必须附带**路径加载文件**。对于`packages/[pkg].md`, 我们需要 `packages/[pkg].paths.js` (同样支持`.ts`):
+由于 VitePress 是静态网站生成器，因此必须在构建时确定可能的页面路径。因此，动态路由页面必须附带**路径加载文件**。对于`packages/[pkg].md`, 我们需要 `packages/[pkg].paths.js` (同样支持`.ts`):
 
 ```
 .

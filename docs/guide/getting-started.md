@@ -87,7 +87,7 @@ $ bunx vitepress init
 
 ## 文件结构
 
-如果你正在构建一个独立的VitePress站点，你可以在当前目录(`./`)构建该站点。然而，如果你要将VitePress安装在一个包含其他源代码的现有项目中，建议将站点构建在嵌套目录（例如`./docs`）中，以便它和项目的其余部分分开。
+如果你正在构建一个独立的VitePress网站，你可以在当前目录(`./`)构建该网站。然而，如果你要将VitePress安装在一个包含其他源代码的现有项目中，建议将网站构建在嵌套目录（例如`./docs`）中，以便它和项目的其余部分分开。
 
 假设你选择在`./docs`构建项目，生成的文件结构应该如下所示
 
@@ -110,7 +110,7 @@ VitePress 默认在`.vitepress/cache`存储开发服务缓存，在`.vitepress/d
 
 ### 配置文件
 
-配置文件 (`.vitepress/config.js`) 允许你自定义项目的各个方面，最基础的配置是站点的名称和描述：
+配置文件 (`.vitepress/config.js`) 允许你自定义项目的各个方面，最基础的配置是网站的名称和描述：
 
 ```js
 // .vitepress/config.js
@@ -128,7 +128,7 @@ export default {
 
 ### 源文件
 
-`.vitepress`目录外的Markdown文件被看作源文件。VitePress使用基于文件的路由模式：每个`.md`文件被编译成对应的相同路径的`.html` 文件。例如， `index.md`会被编译为`index.html`，并且在生成的站点中可以用跟路径 `/`进行访问。
+`.vitepress`目录外的Markdown文件被看作源文件。VitePress使用基于文件的路由模式：每个`.md`文件被编译成对应的相同路径的`.html` 文件。例如， `index.md`会被编译为`index.html`，并且在生成的网站中可以用跟路径 `/`进行访问。
 
 VitePress同样提供了生成简洁链接、重写路径和动态生成页面的能力，这些涵盖在[路由指南](./routing)中。
 
@@ -190,7 +190,7 @@ $ bunx vitepress dev docs
 
 在[CLI 参考](../reference/cli)查看更多命令行用法。
 
-开发服务将运行在 `http://localhost:5173`，在浏览器中访问URL查看正在运行的新站点！
+开发服务将运行在 `http://localhost:5173`，在浏览器中访问URL查看正在运行的新网站！
 
 ## 下一步
 
@@ -200,6 +200,6 @@ $ bunx vitepress dev docs
 
 - 想要探索默认文档主题提供的功能，请查看[默认主题配置参考](../reference/default-theme-config)。
 
-- 如果想要更深度的自定义站点外观，可以探索[扩展默认主题](./extending-default-theme)或者[构建自定义主题](./custom-theme)。
+- 如果想要更深度的自定义网站外观，可以探索[扩展默认主题](./extending-default-theme)或者[构建自定义主题](./custom-theme)。
 
-- 一旦你的文档站点成型，请务必阅读[部署指南](./deploy)。
+- 一旦你的文档网站成型，请务必阅读[部署指南](./deploy)。

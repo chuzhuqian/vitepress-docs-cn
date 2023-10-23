@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "VitePress",
-  description: "a blog site",
+  title: "VitePress中文文档",
+  description: "VitePress中文文档",
   cleanUrls: true,
   base: '/vitepress-doc-cn/',
   ignoreDeadLinks: true,
